@@ -1,0 +1,11 @@
+# 1. Ignore ALL JSON files by default (High Security)
+*.json
+
+# 2. Make an EXCEPTION only for your project file
+!My workflow.json
+
+# 3. Specifically block common secret files just in case
+credentials.json
+client_secret*.json
+.env
+.DS_Store
